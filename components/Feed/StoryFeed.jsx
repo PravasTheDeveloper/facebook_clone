@@ -13,8 +13,8 @@ function StoryFeed({name , profilePic , day}) {
                     <div className='w-10 h-10 bg-blue-600 absolute z-40 rounded-full overflow-hidden p-1 top-2 left-2'>
                         <img src={profilePic} className='rounded-full' alt="" />
                     </div>
-                    <div className='w-full h-7 ml-2 absolute z-50 overflow-hidden p-1 bottom-2 left-0 text-sm text-white'>
-                        <p>Your Story</p>
+                    <div className='w-full h-7 ml-2 absolute z-40 overflow-hidden p-1 bottom-2 left-0 text-sm text-white'>
+                        <p>{name}</p>
                     </div>
                 </div>
             </div>

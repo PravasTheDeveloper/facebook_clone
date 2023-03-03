@@ -18,18 +18,18 @@ function StatusUplaod() {
                 <div className='flex justify-between mt-3'>
                     <div className='h-12 w-40 hover:bg-slate-200 cursor-pointer flex justify-center rounded-lg'>
                         <div className='h-full flex items-center'>
-                            <RiLiveFill className='text-3xl text-red-500 mr-2' /> <span>Live Video</span>
+                            <RiLiveFill className='text-3xl text-red-500 mr-2' /> <span className='md:block hidden'>Live Video</span>
                         </div>
                     </div>
                     <div className='h-12 w-40 hover:bg-slate-200 cursor-pointer flex justify-center rounded-lg'>
                         <div className='h-full flex items-center'>
-                            <IoMdPhotos className='text-3xl text-green-500 mr-2' /><span>Photo/Videos</span>
+                            <IoMdPhotos className='text-3xl text-green-500 mr-2' /><span className='md:block hidden'>Photo/Videos</span>
                         </div>
                         
                     </div>
                     <div className='h-12 w-40 hover:bg-slate-200 cursor-pointer flex justify-center items-center rounded-lg'>
                     <div className='h-full flex items-center'>
-                            <MdMood className='text-3xl text-yellow-500 mr-2' /><span>Feeling/activity</span>
+                            <MdMood className='text-3xl text-yellow-500 mr-2' /><span className='md:block hidden'>Feeling/activity</span>
                         </div>
                     </div>
                 </div>
