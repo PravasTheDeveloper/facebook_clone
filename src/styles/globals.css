@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f4f6;
+}
+
+.sha {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.StoryFeedActons {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 78, 78, 0.158);
+    background-image: linear-gradient(rgb(196, 196, 196 , 0.1), rgb(65, 65, 65 , 0.4));
+    position: absolute;
+}
+.storyFeed::-webkit-scrollbar{
+    display: none;
+}
+.storyFeedwidth{
+    min-width: 114px;
+}
