@@ -22,7 +22,7 @@ function Feed() {
 
     return (
         <>
-            <div className='md:w-5/12 w-full mt-0 mx-4 md:mx-0 overflow-hidden'>
+            <div className='md:w-5/12 w-full mt-0 mx-4 md:mx-0 overflow-hidden pt-3'>
 
                 {/* Feed Story And Rell */}
 
